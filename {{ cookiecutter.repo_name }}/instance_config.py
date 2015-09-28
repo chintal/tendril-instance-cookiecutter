@@ -54,9 +54,10 @@ BASE_CURRENCY = '{{ cookiecutter.base_currency_code }}'
 BASE_CURRENCY_SYMBOL = '{{ cookiecutter.base_currency_symbol }}'
 
 # Company Configuration
-COMPANY_LOGO_PATH = os.path.join(INSTANCE_ROOT, '_static', 'logo-w-200px.png')
-COMPANY_BLACK_LOGO_PATH = os.path.join(INSTANCE_ROOT, '_static', 'logo-b
-				       -200px.png')
+COMPANY_LOGO_PATH = os.path.join(INSTANCE_ROOT, '_static', 
+				 'logo-w-200px.png')
+COMPANY_BLACK_LOGO_PATH = os.path.join(INSTANCE_ROOT, '_static', 
+				       'logo-b-200px.png')
 COMPANY_PO_LCO_PATH = os.path.join(INSTANCE_ROOT, '_static/po')
 COMPANY_GOVT_POINT = "{{ cookiecutter.company_govt_point }}"
 COMPANY_PO_POINT = "{{ cookiecutter.company_po_point }}"
