@@ -1,0 +1,15 @@
+
+idents:
+  EXAMPLE:
+    oqty_min: 100
+    oqty_multiple: 10
+    baseline_qty: 15
+    excess_min_pc: 10
+    excess_max_qty: 10
+
+generators:
+
+devices:
+
+default:
+  excess_min_pc: 0

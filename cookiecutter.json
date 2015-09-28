@@ -1,0 +1,28 @@
+{
+  "company_name": "Company Name",
+  "company_admin_email": "admin@email.domain",
+  "admin_username": "admin",
+  "admin_name": "Administrator Full Name",
+  "admin_email": "tendril-admin@email.domain",
+  
+  "venv_activate": "UPDATE_ME/activate_this.py",
+  
+  "tendril_email_smtp_server": "mail.email.domain",
+  "tendril_email_smtp_port": "587",
+  "tendril_email_name": "\"Tendril\" <tendril@email.domain>",
+  "tendril_email_user": "tendril@email.domain",
+  "tendril_email_pass": "some_password",
+  
+  "base_currency_code": "INR",
+  "base_currency_symbol": "INR ",
+  
+  "company_address_line": "UPDATE_ME",
+  "company_phone": "UPDATE_ME",
+  "company_contact_email": "contact@email.domain",
+  
+  "company_tin_number": "UPDATE_ME",
+  "company_iec": "UPDATE_ME",
+  
+  "company_govt_point": "Company PoC w/Govt",
+  "company_po_point": "Company PoC w/Vendors",
+}

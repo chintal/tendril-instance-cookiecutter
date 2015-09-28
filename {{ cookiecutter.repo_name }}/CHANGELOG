@@ -1,0 +1,4 @@
+{{ cookiecutter.current_date }}	{{ cookiecutter.admin_name }}	<{{ cookiecutter.admin_email }}>
+
+	* Created instance from cookiecutter
+	

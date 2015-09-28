@@ -1,0 +1,21 @@
+Proprietary
+Copyright {{ cookiecutter.current_year }} {{ cookiecutter.company_name }}
+{{ cookiecutter.company_admin_email }} 
+
+Unless otherwise specified within an included file / folder, all contents of 
+this Tendril Instance are owned by {{ cookiecutter.company_name }}. 
+
+Various included source files may be distributed under the terms of an
+open source license. Each source file distributed as such contains within 
+it the applicable license and author for that file.
+
+While ownership of such files included under open source licenses remains 
+with the original authors, all contributions to this repository are under 
+the terms of a Fiduciary License Agreement (FLA) between the original 
+author(s) and {{ cookiecutter.company_name }}, irrevocably granting all 
+rights to the Fiduciary, {{ cookiecutter.company_name }}, to use the code as 
+they see fit and re-license the code as needed, without impinging on the 
+rights of the original authors. Copies of the FLA signed by the original 
+authors is included in the source tree under 'license', along with the 
+template for the FLA.
+

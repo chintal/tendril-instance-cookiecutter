@@ -1,0 +1,12 @@
+\ProvidesFile{po-qt.lco}[2013/09/12 lco ({{ cookiecutter.company_name }})]
+\KOMAoptions{foldmarks=false,fromphone,fromemail,fromlogo,backaddress=false,fromrule=afteraddress,subject=centered, fromalign=right, locfield=wide}
+
+\setkomavar{signature}{Procurement Executive\\{{ cookiecutter.company_name }}}
+\setkomavar{fromname}{{{ cookiecutter.company_name }}}
+\setkomavar{fromaddress}{{{ cookiecutter.company_address }}}
+\setkomavar{fromphone}{{{ cookiecutter.company_phone }}}
+\setkomavar{fromemail}{{{ cookiecutter.company_contact_email }}}
+\setkomavar{fromlogo}{\includegraphics[width=0.8in]{/home/chintal/.tendril/static/logo-w-200px.png}}
+\setkomavar{subject}{Purchase Order}
+\setkomavar{myref}[TIN Number]{{{ cookiecutter.company_tin_number }}}
+

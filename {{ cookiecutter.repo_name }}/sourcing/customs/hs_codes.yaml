@@ -1,0 +1,569 @@
+
+
+sections: 
+  8532 24 00:
+    name: Ceramic Capacitors
+    idents:
+      - CAP CER
+    duties:
+      bcd: 
+        rate: 0
+        notification: 024/2005-20 #OK
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 4
+        notification: 019/2006
+      cec:
+        rate: 0
+        notification: 069/2004-1 #OK
+      cshec:
+        rate: 0 
+        notification: 028/2007 #OK
+      cvdec:
+        rate: 2
+        notification: 18/2014-vi #OK
+      cvdshec:
+        rate: 1 
+        notification: 19/2014-vi #OK
+    desc: "ELECTRICAL CAPACITORS, FIXED, VARIABLE OR ADJUSTABLE (PRE-SET) :: Ceramic dielectric, multilayer"
+  8532 21 00:
+    name: Tantalum Capacitors
+    idents:
+      - CAP TANT
+    duties:
+      bcd: 
+        rate: 0
+        notification: 024/2005-20 #OK
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 4
+        notification: 019/2006 
+      cec:
+        rate: 0
+        notification: 069/2004-1 #OK
+      cshec:
+        rate: 0
+        notification: 028/2007 #OK
+      cvdec:
+        rate: 2
+        notification: 18/2014-vi #OK
+      cvdshec:
+        rate: 1 
+        notification: 19/2014-vi #OK
+    desc: "ELECTRICAL CAPACITORS, FIXED, VARIABLE OR ADJUSTABLE (PRE-SET) :: Tantalum"
+  8533 10 00:
+    name: Resistors
+    idents:
+      - RES
+    duties:
+      bcd: 
+        rate: 0
+        notification: 024/2005-21 #OK
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 4
+        notification: 019/2006
+      cec:
+        rate: 0
+        notification: 069/2004-1 #OK
+      cshec:
+        rate: 0
+        notification: 028/2007 #OK
+      cvdec:
+        rate: 2
+        notification: 18/2014-vi #OK
+      cvdshec:
+        rate: 1 
+        notification: 19/2014-vi #OK
+    desc: "ELECTRICAL RESISTORS (INCLUDING RHEOSTATS AND POTENTIOMETERS), OTHER THAN HEATING RESISTORS ::  Fixed carbon resistors, composition or film types"
+  8541 10 00:
+    name: Diodes
+    idents:
+      - DIODE
+    duties:
+    # TODO VERIFY
+      bcd: 
+        rate: 0
+        notification: 024/2005-23 #OK
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 4
+        notification: 019/2006
+      cec:
+        rate: 0
+        notification: 069/2004-1 #OK
+      cshec:
+        rate: 0
+        notification: 028/2007 #OK
+      cvdec:
+        rate: 2
+        notification: 18/2014-vi #OK
+      cvdshec:
+        rate: 1 
+        notification: 19/2014-vi #OK
+    desc: "DIODES, TRANSISTORS AND SIMILAR SEMI-CONDUCTOR DEVICES; PHOTOSENSITIVE SEMI-CONDUCTOR DEVICES, INCLUDING PHOTOVOLTAIC CELLS WHETHER OR NOT ASSEMBLED IN MODULES OR MADE UP INTO PANELS; LIGHT EMITTING DIODES; MOUNTED PIEZO-ELECTRIC CRYSTALS :: Diodes, other than photosensitive or light emitting diode"
+  8541 21 00:
+    name: Transistors
+    idents:
+      - TRANSISTOR
+    # TODO VERIFY
+    duties:
+      bcd: 
+        rate: 0
+        notification: 024/2005-23 #OK
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 4
+        notification: 019/2006
+      cec:
+        rate: 0
+        notification: 069/2004-1 #OK
+      cshec:
+        rate: 0
+        notification: 028/2007 #OK
+      cvdec:
+        rate: 2
+        notification: 18/2014-vi #OK
+      cvdshec:
+        rate: 1 
+        notification: 19/2014-vi #OK
+    desc: "DIODES, TRANSISTORS AND SIMILAR SEMI-CONDUCTOR DEVICES; PHOTOSENSITIVE SEMI-CONDUCTOR DEVICES, INCLUDING PHOTOVOLTAIC CELLS WHETHER OR NOT ASSEMBLED IN MODULES OR MADE UP INTO PANELS; LIGHT EMITTING DIODES; MOUNTED PIEZO-ELECTRIC CRYSTALS :: Transistors, other than photosensitive transistors :: With a dissipation rate of less than 1W"
+  8541 40 20:
+    name: LEDs
+    idents:
+      - LED
+    # TODO VERIFY
+    duties:
+      bcd: 
+        rate: 0
+        notification: 024/2005-23 #OK
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 0
+        notification: 021/2012-90
+      cec:
+        rate: 0
+        notification: 069/2004-1 #OK
+      cshec:
+        rate: 0
+        notification: 028/2007 #OK
+      cvdec:
+        rate: 2
+        notification: 18/2014-vi #OK
+      cvdshec:
+        rate: 1 
+        notification: 19/2014-vi #OK
+    desc: "DIODES, TRANSISTORS AND SIMILAR SEMI-CONDUCTOR DEVICES; PHOTOSENSITIVE SEMI-CONDUCTOR DEVICES, INCLUDING PHOTOVOLTAIC CELLS WHETHER OR NOT ASSEMBLED IN MODULES OR MADE UP INTO PANELS; LIGHT EMITTING DIODES; MOUNTED PIEZO-ELECTRIC CRYSTALS :: Photosensitive semi-conductor devices, including photovoltaic cells whether or not assembled in modules or made up into panels; light emitting diodes :: Light emitting diodes (electro-luminescent)"
+  8504 50 90:
+    name: Inductors
+    idents:
+      - INDUCTOR
+      - FERRITE BEAD
+    # TODO VERIFY
+    duties:
+      bcd: 
+        rate: 7.5
+        notification:
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 4
+        notification: 
+      cec:
+        rate: 2
+        notification: 069/2004-1
+      cshec:
+        rate: 1
+        notification: 028/2007
+      cvdec:
+        rate: 0
+        notification: 13/2012-1 #OK
+      cvdshec:
+        rate: 0 
+        notification: 14/2012-1 #OK
+    desc: "ELECTRICAL TRANSFORMERS, STATIC CONVERTERS (FOR EXAMPLE, RECTIFIERS) AND INDUCTORS :: Other inductors : Other"
+  8504 31 00:
+    name: Transformers
+    idents:
+      - TRANSFORMER
+    # TODO VERIFY
+    duties:
+      bcd: 
+        rate: 10
+        notification:
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 4
+        notification: 019/2006
+      cec:      
+        rate: 2
+        notification:
+      cshec:
+        rate: 1
+        notification:
+      cvdec:
+        rate: 0
+        notification: 13/2012-1 #OK
+      cvdshec:
+        rate: 0 
+        notification: 14/2012-1 #OK
+    desc: "ELECTRICAL TRANSFORMERS, STATIC CONVERTERS (FOR EXAMPLE, RECTIFIERS) AND INDUCTORS :: Other transformers : Having a power handling capacity not exceeding 1 kVA"
+  8541 60 00:
+    name: Crystals
+    idents:
+      - CRYSTAL
+    # TODO VERIFY
+    duties:
+      bcd: 
+        rate: 0
+        notification: 024/2005-23 
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 4
+        notification: 019/2006
+      cec:      
+        rate: 0
+        notification:
+      cshec:
+        rate: 0
+        notification:
+      cvdec:
+        rate: 2
+        notification: 18/2014-vi #OK
+      cvdshec:
+        rate: 1 
+        notification: 19/2014-vi #OK
+    desc: "DIODES, TRANSISTORS AND SIMILAR SEMI-CONDUCTOR DEVICES; PHOTOSENSITIVE SEMI-CONDUCTOR DEVICES, INCLUDING PHOTOVOLTAIC CELLS WHETHER OR NOT ASSEMBLED IN MODULES OR MADE UP INTO PANELS; LIGHT EMITTING DIODES; MOUNTED PIEZO-ELECTRIC CRYSTALS :: Mounted piezo-electric crystals"
+  8536 69 10:
+    name: Plastic Connectors
+    idents:
+      - FLEX CABLE
+      - CONN FPC
+      - CONN FFC
+      - SOCKET
+      - CONN DF13 HOUS
+    # TODO VERIFY
+    duties:
+      bcd: 
+        rate: 10
+        notification:
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 4
+        notification: 019/2006
+      cec:      
+        rate: 2
+        notification:
+      cshec:
+        rate: 1
+        notification:
+      cvdec:
+        rate: 0
+        notification: 13/2012-1 #OK
+      cvdshec:
+        rate: 0 
+        notification: 14/2012-1 #OK
+    desc: "ELECTRICAL APPARATUS FOR SWITCHING OR PROTECTING ELECTRICAL CIRCUITS, OR FOR MAKING CONNECTIONS TO OR IN ELECTRICAL CIRCUITS (FOR EXAMPLE, SWITCHES, RELAYS, FUSES, SURGE SUPPRESSORS, PLUGS, SOCKETS, LAMP-HOLDERS AND OTHER CONNECTORS, JUNCTION BOXES), FOR A VOLTAGE NOT EXCEEDING 1,000 VOLTS:CONNECTORS FOR OPTICAL FIBRES,OPTICAL FIBER BUNDLES OR CABLES :: Other :: Of plastic"
+  8536 69 90:
+    name: PCB Connectors
+    idents:
+      - CONN DF13 DF13
+      - CONN PIN
+    # TODO VERIFY
+    duties:
+      bcd: 
+        rate: 10
+        notification:
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 4
+        notification: 019/2006
+      cec:      
+        rate: 2
+        notification:
+      cshec:
+        rate: 1
+        notification:
+      cvdec:
+        rate: 0
+        notification: 13/2012-1 #OK
+      cvdshec:
+        rate: 0 
+        notification: 14/2012-1 #OK
+    desc: "ELECTRICAL APPARATUS FOR SWITCHING OR PROTECTING ELECTRICAL CIRCUITS, OR FOR MAKING CONNECTIONS TO OR IN ELECTRICAL CIRCUITS (FOR EXAMPLE, SWITCHES, RELAYS, FUSES, SURGE SUPPRESSORS, PLUGS, SOCKETS, LAMP-HOLDERS AND OTHER CONNECTORS, JUNCTION BOXES), FOR A VOLTAGE NOT EXCEEDING 1,000 VOLTS:CONNECTORS FOR OPTICAL FIBRES,OPTICAL FIBER BUNDLES OR CABLES :: Other :: Of other materials"
+  8414 59 90:
+    name: Fans
+    idents:
+      - FAN
+    # TODO VERIFY
+    duties:
+      bcd: 
+        rate: 7.5
+        notification:
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 0
+        notification: 021/2012-82
+      cec:      
+        rate: 2
+        notification:
+      cshec:
+        rate: 1
+        notification:
+      cvdec:
+        rate: 0
+        notification: 13/2012-1 #OK
+      cvdshec:
+        rate: 0 
+        notification: 14/2012-1 #OK
+    desc: "AIR OR VACUUM PUMPS, AIR OR OTHER GAS COMPRESSORS AND FANS; VENTILATING OR RECYCLING HOODS INCORPORATING A FAN, WHETHER OR NOT FITTED WITH FILTERS :: Other :: Other"
+  8544 42 90:
+    name: Wire w/Connector Other
+    idents:
+      - CONN DF13 WIRE
+    # TODO VERIFY
+    duties:
+      bcd: 
+        rate: 7.5
+        notification:
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 4
+        notification: 019/2006
+      cec:      
+        rate: 2
+        notification:
+      cshec:
+        rate: 1
+        notification:
+      cvdec:
+        rate: 0
+        notification: 13/2012-1 #OK
+      cvdshec:
+        rate: 0 
+        notification: 14/2012-1 #OK
+    desc: "INSULATED (INCLUDING ENAMELLED OR ANODISED) WIRE, CABLE (INCLUDING CO-AXIAL CABLE) AND OTHER INSULATED ELECTRIC CONDUCTORS, WHETHER OR NOT FITTED WITH CONNECTORS; OPTICAL FIBRE CABLES, MADE UP OF INDIVIDUALLY SHEATHED FIBRES, WHETHER OR NOT ASSEMBLED WITH ELECTRIC CONDUCTORS OR FITTED WITH CONNECTORS :: Fitted with connectors :: Other"
+  8538 90 00:
+    name: Connector Accessories
+    idents:
+      - CRIMP
+    # TODO VERIFY
+    duties:
+      bcd: 
+        rate: 7.5
+        notification:
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 4
+        notification: 019/2006
+      cec:      
+        rate: 2
+        notification:
+      cshec:
+        rate: 1
+        notification:  
+      cvdec:
+        rate: 0
+        notification: 13/2012-1 #OK
+      cvdshec:
+        rate: 0 
+        notification: 14/2012-1 #OK
+    desc: "PARTS SUITABLE FOR USE SOLELY OR PRINCIPALLY WITH THE APPARATUS OF HEADINGS 8535, 8536 OR 8537 :: Other"
+  9026 20 00:
+    name: Pressure Sensors
+    idents:
+      - IC THRU 26PC
+      - IC THRU MPX57
+    # TODO VERIFY
+    duties:
+      bcd: 
+        rate: 0
+        notification: 024/2005-31 
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 4
+        notification: 019/2006
+      cec:      
+        rate: 0
+        notification:
+      cshec:
+        rate: 0
+        notification:
+      cvdec:
+        rate: 2
+        notification: 18/2014-viii #OK
+      cvdshec:
+        rate: 1 
+        notification: 19/2014-viii #OK
+    desc: "INSTRUMENTS AND APPARATUS FOR MEASURING OR CHECKING THE FLOW, LEVEL, PRESSURE OR OTHER VARIABLES OF LIQUIDS OR GASES (FOR EXAMPLE, FLOW METERS, LEVEL GAUGES, MANOMETERS, HEAT METERS), EXCLUDING INSTRUMENTS AND APPARATUS OF HEADING 9014, 9015, 9028 OR 9032 :: For measuring or checking pressure"
+  8541 40 90:
+    name: Photosensitive Semiconductors Other
+    idents:
+      - SENSOR OPB
+    folders:
+      - MY-IC/ISOLATION/OPTO
+    # TODO VERIFY
+    duties:
+      bcd: 
+        rate: 0
+        notification: 024/2005-31 
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 4
+        notification: 019/2006
+      cec:      
+        rate: 2
+        notification:
+      cshec:
+        rate: 1
+        notification:
+      cvdec:
+        rate: 2
+        notification: 18/2014-vi #OK
+      cvdshec:
+        rate: 1 
+        notification: 19/2014-vi #OK
+    desc: "DIODES, TRANSISTORS AND SIMILAR SEMI-CONDUCTOR DEVICES; PHOTOSENSITIVE SEMI-CONDUCTOR DEVICES, INCLUDING PHOTOVOLTAIC CELLS WHETHER OR NOT ASSEMBLED IN MODULES OR MADE UP INTO PANELS; LIGHT EMITTING DIODES; MOUNTED PIEZO-ELECTRIC CRYSTALS :: Photosensitive semi-conductor devices, including photovoltaic cells whether or not assembled in modules or made up into panels; light emitting diodes"
+  8542 31 00:
+    name: Processors
+    folders:
+      - MY-IC/uC
+    # TODO VERIFY
+    duties:
+      bcd: 
+        rate: 0
+        notification: 024/2005-24
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 0
+        notification: 021/2012-89
+      cec:      
+        rate: 2
+        notification:
+      cshec:
+        rate: 1
+        notification:
+      cvdec:
+        rate: 0
+        notification: 13/2012-1 #OK
+      cvdshec:
+        rate: 0 
+        notification: 14/2012-1 #OK
+    desc: "ELECTRONIC INTEGRATED CIRCUITS :: Electronic integrated circuits :: Processors and controllers, whether or not combined with memories, converters, logic circuits, amplifiers, clock and timing circuits, or other circuits"
+  8542 32 00:
+    name: Memories
+    folders:
+      - MY-IC/MEMORY
+    # TODO VERIFY
+    duties:
+      bcd: 
+        rate: 0
+        notification: 024/2005-24
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 0
+        notification: 021/2012-89
+      cec:      
+        rate: 2
+        notification:
+      cshec:
+        rate: 1
+        notification:
+      cvdec:
+        rate: 0
+        notification: 13/2012-1 #OK
+      cvdshec:
+        rate: 0 
+        notification: 14/2012-1 #OK
+    desc: "ELECTRONIC INTEGRATED CIRCUITS :: Electronic integrated circuits :: Memories"
+  8542 33 00:
+    name: Amplifiers
+    folders:
+      - MY-IC/AMP
+    # TODO VERIFY
+    duties:
+      bcd: 
+        rate: 0
+        notification: 024/2005-24
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 0
+        notification: 021/2012-89
+      cec:      
+        rate: 2
+        notification:
+      cshec:
+        rate: 1
+        notification:
+      cvdec:
+        rate: 0
+        notification: 13/2012-1 #OK
+      cvdshec:
+        rate: 0 
+        notification: 14/2012-1 #OK
+    desc: "ELECTRONIC INTEGRATED CIRCUITS :: Electronic integrated circuits :: Amplifiers"
+  8542 39 00:
+    name: Other ICs
+    folders:
+      - MY-IC
+    # TODO VERIFY
+    duties:
+      bcd: 
+        rate: 0
+        notification: 024/2005-24
+      cvd:
+        rate: 12.5
+        notification: 
+      acvd:
+        rate: 0
+        notification: 021/2012-89
+      cec:      
+        rate: 2
+        notification:
+      cshec:
+        rate: 1
+        notification:
+      cvdec:
+        rate: 0
+        notification: 13/2012-1 #OK
+      cvdshec:
+        rate: 0 
+        notification: 14/2012-1 #OK
+    desc: "ELECTRONIC INTEGRATED CIRCUITS :: Electronic integrated circuits :: Other"
